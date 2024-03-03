@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-
 import { Board } from "./Board";
 import { ResetButton } from "./ResetButton";
 import { ScoreBoard } from "./ScoreBoard";
+import { Link , Navigate} from "react-router-dom";
  
 const App = () => {
 
@@ -72,9 +72,11 @@ const App = () => {
 
   return (
     <div className="App">
+      <h1> Tic Tac Toe </h1>
       <ScoreBoard scores={scores} xPlaying={xPlaying} />
       <Board board={board} onClick={gameOver ? resetBoard : handleBoxClick} />
       <ResetButton resetBoard={resetBoard} />
+      <Link to='/' className="backButton"> Back </Link> 
     </div>
   );
 }

@@ -82,7 +82,7 @@
   box-shadow: 0px 0px 15px #888888;
 }
 
-/* Reset button */
+/* Reset button And Back button */
 
 .reset-btn {
   border: none;
@@ -94,10 +94,24 @@
   margin: 20px auto;
   display: block;
   text-align: center;
+  width: 100px;
 }
 
 .reset-btn:hover {
   background-color: rgb(0, 119, 255);
+}
+
+.backButton {
+  border: none;
+  border-radius: 15px;
+  background-color: rgb(0, 255, 128);
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+  margin: 20px auto;
+  display: block;
+  text-align: center;
+  width: 80px;
 }
 
 /* ScoreBoard */

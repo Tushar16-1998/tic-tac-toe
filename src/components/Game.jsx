@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Board } from "./Board";
 import { ResetButton } from "./ResetButton";
 import { ScoreBoard } from "./ScoreBoard";
-import { Link , Navigate} from "react-router-dom";
+import { Link } from "react-router-dom";
  
 const App = () => {
 
